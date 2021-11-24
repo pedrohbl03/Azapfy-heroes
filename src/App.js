@@ -55,6 +55,7 @@ function App() {
               .map((hero, key) => {
                 return (
                   <a
+                    href="#"
                     onClick={() => {
                       toggle();
                       setHeroModal(hero);
