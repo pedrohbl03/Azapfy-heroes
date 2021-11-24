@@ -1,3 +1,8 @@
+# About this project 
+
+This project is a technical test for Azapfy's frontend development internship position.
+This project uses the API provided by the Azapfy team http://homologacao3.azapfy.com.br/api/ps/metahumans
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
