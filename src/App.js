@@ -18,6 +18,7 @@ function App() {
 
 
   useEffect(() => {
+
     axios.get('http://homologacao3.azapfy.com.br/api/ps/metahumans')
       .then(response => {
         setHeroes(response.data);
