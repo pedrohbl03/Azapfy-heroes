@@ -27,7 +27,7 @@ a.card_hero_container:hover {
 /* Custom css att button close modal*/
 
 .btn-close {
-  background: transparent url(../../azapfy-heroes/src/assets/close-btn.png) center/1em auto no-repeat !important;
+  background: transparent url(../src/assets/close-btn.png) center/1em auto no-repeat !important;
 }
 .btn-close:hover {
   opacity: 1 !important;
