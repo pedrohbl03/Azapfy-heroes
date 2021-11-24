@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom css att hover card */
+
+a.card_hero_container {
+  cursor: pointer;
+  transition: all .3s linear;
+  text-decoration: none !important;
+}
+
+a.card_hero_container:hover {
+  transform: scale(1.04);
+}
+
+/* Custom css att button close modal*/
+
+.btn-close {
+  background: transparent url(../../azapfy-heroes/src/assets/close-btn.png) center/1em auto no-repeat !important;
+}
+.btn-close:hover {
+  opacity: 1 !important;
+}
+
+/* Custom css att Modal styles */
+
+.modal-hero_image {
+  max-width: 100%;
+}
+
+
+.modal-dialog {
+  max-width: 700px !important;
+}
