@@ -43,3 +43,7 @@ a.card_hero_container:hover {
 .modal-dialog {
   max-width: 700px !important;
 }
+
+.bg-dark-light {
+  background: #333333 !important;
+}

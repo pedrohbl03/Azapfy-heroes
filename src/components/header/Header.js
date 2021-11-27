@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Navbar,
   NavbarBrand,
-  NavbarToggler,
   Collapse,
   Nav,
   Input,
@@ -18,27 +17,29 @@ function Header(props) {
         dark
         container
         expand
+        className="d-block"
       >
-        <NavbarBrand className="d-sm-block" href="/">
+        <div className="w-100 d-md-flex text-center">
+        <NavbarBrand className="mx-auto" href="/">
           Azapfy <span className="text-warning">Heroes</span>
         </NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck() { }} />
         <Collapse navbar
-          className="justify-content-end">
+          className="d-block justify-content-center justify-content-md-end">
           <Nav
             navbar
           >
-            <div className="d-flex">
+            <div className="d-flex align-items-center">
               <p className="text-light m-0 px-3 ">Pesquisar</p>
               <Input
                 bsSize="sm"
                 type="search"
-                className="justify-end m-0"
+                className="my-2"
                 onChange={props.onChange}
               />
             </div>
           </Nav>
         </Collapse>
+        </div>
       </Navbar>
     </div>
   );
